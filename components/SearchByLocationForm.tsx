@@ -217,7 +217,7 @@ function SearchByLocationForm() {
         </div>
         <div className="flex items-center justify-center mt-[30px]">
           <button
-            className={`mt-5 capitalize py-5 px-10 ${backgroundClassMap["themeBackgroundColor"]} rounded-md hover:${backgroundClassMap["themeHoverBackgroundColor"]}`}
+            className={`mt-5 capitalize py-5 px-10 ${backgroundClassMap["themeBackgroundColor"]} rounded-md hover:bg-mint-tulip-700`}
           >
             Search for therapists
           </button>
