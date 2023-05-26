@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/editable": "^3.0.0",
+    "@chakra-ui/react": "^2.6.1",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
@@ -13,6 +15,7 @@
     "@material-ui/icons": "^4.11.3",
     "@react-google-maps/api": "^2.18.1",
     "babel-plugin-macros": "^3.1.0",
+    "framer-motion": "^10.12.10",
     "google-map-react": "^2.2.0",
     "hamburger-react": "^2.5.0",
     "next": "latest",
@@ -23,9 +26,13 @@
     "react-dom": "18.2.0",
     "react-fontawesome": "^1.7.1",
     "react-google-autocomplete": "^2.7.3",
+    "react-icons": "^4.8.0",
     "react-loader-spinner": "^5.3.4",
     "react-odometerjs": "^3.1.0",
-    "react-stars": "^2.2.5"
+    "react-select": "^5.7.3",
+    "react-slick": "^0.29.0",
+    "react-stars": "^2.2.5",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -35,6 +42,7 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@types/react-places-autocomplete": "^7.2.9",
+    "@types/react-slick": "^0.23.10",
     "@types/react-stars": "^2.2.1",
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.18",
