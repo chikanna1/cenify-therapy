@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "therapists",
+  "info": {
+    "singularName": "therapist",
+    "pluralName": "therapists",
+    "displayName": "therapist-profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "json"
+    },
+    "location": {
+      "type": "json"
+    },
+    "email": {
+      "type": "email"
+    },
+    "inPersonTherapy": {
+      "type": "boolean"
+    },
+    "acceptingNewClients": {
+      "type": "boolean"
+    },
+    "onlineTherapy": {
+      "type": "boolean"
+    },
+    "socialMediaLinks": {
+      "type": "json"
+    },
+    "sessionFee": {
+      "type": "decimal"
+    },
+    "acceptedPaymentMethods": {
+      "type": "json"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "insuranceAccepted": {
+      "type": "json"
+    },
+    "therapyApproaches": {
+      "type": "json"
+    },
+    "specialties": {
+      "type": "json"
+    },
+    "therapyCredentials": {
+      "type": "json"
+    },
+    "degreesAndTraining": {
+      "type": "richtext"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "profileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "therapistprofile": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "user"
+    }
+  }
+}
